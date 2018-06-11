@@ -42,7 +42,7 @@ public class fib {
             BigInteger currentFib = BigInteger.ONE;
             BigInteger newFib;
 
-            for(int i=0; i<n; i++){ // 重复循环n-1次
+            for(int i=1; i<n; i++){ // 重复循环n-1次
                 newFib =  previousFib.add(currentFib);
                 previousFib = currentFib;
                 currentFib = newFib;
